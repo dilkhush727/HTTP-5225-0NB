@@ -1,0 +1,49 @@
+body{
+    background-color: #f9f9f9;
+}
+
+main{
+    padding: 20px 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav{
+    background-color: #fff;
+    box-shadow: 0px 0px 3px 0px #b6b6b6;
+}
+
+nav .navbar-brand{
+    color: #000;
+    font-weight: 500;
+}
+
+nav .nav-link{
+    color: #000;
+}
+.image-box {
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+.image-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%; 
+}
+.card{
+    box-shadow: 0px 0px 3px 0px #d4d4d4;
+}
